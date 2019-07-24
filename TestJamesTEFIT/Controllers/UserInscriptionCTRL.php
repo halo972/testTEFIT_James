@@ -54,7 +54,7 @@ try {
         /*
          * Connexion
          */
-        $lcnx = new PDO("mysql:host=localhost;port=3306;dbname=test;", "root", "root");
+        $lcnx = new PDO("mysql:host=localhost;port=3306;dbname=testJames;", "root", "root");
         $lcnx->setAttribute(PDO::ATTR_ERRMODE, PDO::ERRMODE_EXCEPTION);
         $lcnx->exec("SET NAMES 'UTF8'");
 
