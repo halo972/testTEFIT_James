@@ -3,12 +3,11 @@
 -- https://www.phpmyadmin.net/
 --
 -- Hôte : localhost:8889
--- Généré le :  mer. 24 juil. 2019 à 10:24
+-- Généré le :  mer. 24 juil. 2019 à 12:17
 -- Version du serveur :  5.7.25
 -- Version de PHP :  7.3.1
 
 SET SQL_MODE = "NO_AUTO_VALUE_ON_ZERO";
-SET time_zone = "+00:00";
 
 
 /*!40101 SET @OLD_CHARACTER_SET_CLIENT=@@CHARACTER_SET_CLIENT */;
@@ -19,6 +18,8 @@ SET time_zone = "+00:00";
 --
 -- Base de données :  `testJames`
 --
+CREATE DATABASE IF NOT EXISTS `testJames` DEFAULT CHARACTER SET utf8 COLLATE utf8_general_ci;
+USE `testJames`;
 
 -- --------------------------------------------------------
 
@@ -26,6 +27,7 @@ SET time_zone = "+00:00";
 -- Structure de la table `users`
 --
 
+DROP TABLE IF EXISTS `users`;
 CREATE TABLE `users` (
   `Id` int(11) NOT NULL,
   `login` varchar(255) DEFAULT NULL,
