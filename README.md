@@ -9,3 +9,4 @@ J'ai crée l'application web en utilisant l'architecture MVC (NEtbeans en IDE) :
 -Un dossier Model dans lequel se trouve un fichier User.php.
 -Un fichier index.php crée automatiquement par NetBeans.
 
+J'ai également joint la base de données testJames.sql comme vous me l'avez demandé.
