@@ -1,0 +1,10 @@
+/*Test.css*/
+
+
+.Loginpart{background-color:navy ;height: 30%;width: 100%;}
+.adress{color:white;}
+.mtdepasse{color:white;}
+.Inscriptionpart{background:linear-gradient(0deg,#B0C4DE , #ADD8E6 40%,#FFFFFF) ;} 
+.forgotten{color:rgb(255,255,255);}
+.btAuthen{background-color:blue;color: white;}
+.btInscr{background-color: rgb(154,205,50);width: 150px;height: 35px;color: rgb(255,255,255);}
